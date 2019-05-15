@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="css/farbastic.css" type="text/css" />
+    <link rel="stylesheet" href="main.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container-fluid sectionContainer">
+      <div class="animationSection">
+        <div class="laptopContainer">
+          <div class="laptop_bg">
+            <div class="logo"></div>
+            <div class="teclas"></div>
+            <div class="teclasLeft"></div>
+            <div class="teclasBottom"></div>
+            <div class="teclasRight"></div>
+
+          </div>
+        </div>
+
+        <div class="mouseContainer">
+          <div class="mouse_bg">
+            <svg class="mouseBrillo" viewBox="0 0 600 740" style="fill: red;">
+              <defs>
+                <filter id="glow">
+                  <feGaussianBlur
+                    stdDeviation="20"
+                    result="coloredBlur"
+                  ></feGaussianBlur>
+                  <feMerge>
+                    <feMergeNode in="coloredBlur"></feMergeNode>
+                    <feMergeNode in="SourceGraphic"></feMergeNode>
+                  </feMerge>
+                </filter>
+              </defs>
+              <path
+                d="M165.24,231.41C185.89,221,205.38,208.32,225,194.52l5.31,12.64c17.85-5.5,35.16-11.67,52.9-17.43-.81-3.47-1.54-6.65-2.44-10.49a24.52,24.52,0,0,1,4.43-.28c11.87,1.49,23.73,3.12,35.6,4.6,9.4,1.17,18.82,2.18,28.22,3.3,1.62.2,3.22.59,5.19.95,1.36,5.07,2.63,10,4,15,7.9,27.83,15.6,55.73,23.87,83.46,4.86,16.3,12.37,31.6,19.63,46.95,7.9,16.71,16,33.33,24,50,5.55,11.61,9.92,23.64,11.94,36.39,1.2,7.54,2.31,15.15.89,22.83a12.15,12.15,0,0,0,0,3.46c1.58,14.56.88,29-3.61,43-3.26,10.11-7.74,19.82-11.72,29.7a10.38,10.38,0,0,1-1.57,2.53c-15,18.39-32.79,32.54-56.33,38.4-13.27,3.3-26.72,3.33-40.18,2.21-3.87-.32-7.72-2-11.39-3.48-14.78-6.08-28.2-14.38-39.6-25.63a101.26,101.26,0,0,1-28.22-51.37c-1.54-6.95-2.27-14.1-3.11-21.19a29.38,29.38,0,0,0-4.63-12c-4.26-7-8.75-13.78-12.83-20.84a24.47,24.47,0,0,1-3.18-8.8,167.76,167.76,0,0,0-8.35-33.84q-6.42-18.39-13.41-36.55c-1.32-3.45-1.74-6.61-.59-10.11,1-3.15,1.74-6.41,2.67-9.89-4.05-9.33-8.22-18.76-12.23-28.26q-11.64-27.6-23.09-55.28C165.55,240.47,164.08,236.32,165.24,231.41Z"
+                transform="translate(-1)"
+              ></path>
+            </svg>
+          </div>
+        </div>
+
+        <div class="audioContainer">
+          <div class="audio_bg">
+            <svg class="bocinas" viewBox="0 0 778 688" style="fill: red">
+              <path
+                d="M45.62,189l-14.83-6c-2.31-3.88-2.41-6.32-.23-12L69,160.45c-1.3,19.37-3.73,38.41-3.54,57.41s2.65,37.82,4.77,56.65C72.35,293.59,80.8,311,85.64,329.43,54.32,288,47.15,239.65,45.62,189Z"
+                transform="translate(24, 10)"
+              ></path>
+              <path
+                d="M30.55,152.77l2.59-10.71c4.94-3.66,9.71-7.58,14.85-10.92a46,46,0,0,0,17.8-21.64C73.8,90,85.3,72.7,99.16,57.12c10.47-11.78,22.27-22.39,33.68-33.3,2.51-2.4,5.39-5,10.42-4.63-.72,1.59-1,3-1.8,3.87-21.22,21.46-35.85,47.52-50.23,73.56C84.63,108.57,81,122.17,76.05,135c-.48,1.23-.86,2.5-1.62,4.75L31.5,153.91Z"
+                transform="translate(20, 5)"
+              ></path>
+              <path
+                d="M644.35,658.62l-5.9,2.91-4.5-9.82c-2.12.37-4.09.4-5.8,1.07-22.8,8.94-46.47,12.19-70.88,12.27-17.11.05-33.88-1.31-50.3-6.23-2.55-.76-5-1.8-7.55-2.72l.29-1.6a39,39,0,0,1,4-.27c8,.26,16,.75,24,.85,39.67.52,77.11-8.94,113-25.41,3.41-1.57,6.79-3.23,11.23-5.35Z"
+                transform="translate(-14, -26)"
+              ></path>
+              <path
+                d="M761.48,521.6c-.33,1.7-.27,3.6-1.05,5.06-6.25,11.57-12.18,23.35-19.16,34.47a155.66,155.66,0,0,1-18.13,23.75C711.75,597,699.49,608.31,687.64,620c-3.91,3.86-7.66,7.87-11.49,11.81q-4.27,4.41-8.56,8.8l-1.08-.59c1.61-8.43,3-16.93,5-25.25.5-2.06,3-3.89,5-5.28a287,287,0,0,0,51-45.43c12-13.56,22.67-28.3,33.93-42.52Z"
+                transform="translate(-13, -24)"
+              ></path>
+              <polygon
+                points="761.53 521.55 761.8 521.65 761.48 521.6 761.53 521.55"
+              ></polygon>
+            </svg>
+          </div>
+        </div>
+      </div>
+
+      <aside class="column">
+        <ul class="column_list">
+          <li data-anim="anim_static" class="column_list_item"><img src="images/icons/i01.png" alt=""> <span>Static</span></li>
+          <li  data-anim="anim_breathing"  class="column_list_item"><img src="images/icons/i02-1.png" alt=""> <span>Breathing</span></li>
+          <li data-anim="anim_strobing" class="column_list_item"><img src="images/icons/i03-1.png" alt=""> <span>Strobing</span></li>
+          <li data-anim="anim_colorCycle" class="column_list_item"><img src="images/icons/i04-1.png" alt=""> <span>Color <br class="brMobile"> cycle</span></li>
+          <li data-anim="anim_rainbow" class="column_list_item"><img src="images/icons/i05-1.png" alt=""> <span>Rainbow</span></li>
+          <li  data-anim="anim_music" class="column_list_item"><img src="images/icons/i13-1.png" alt=""> <span>Music</span></li>
+          <li data-anim="anim_smart" class="column_list_item"><img src="images/icons/i14-1.png" alt=""> <span>Smart</span></li>
+          <li class="column_list_item"><img src="images/icons/i15-1.png" alt=""> <span>Starry <br class="brMobile"> night</span></li>    
+        </ul>
+
+
+        <div class="colorPicker_container">
+            <form style="position: absolute; z-index:-500; visibility:hidden"><input type="text" id="color" name="color" value="#123456" /></form>
+            <div id="colorpicker"></div> 
+         </div>
+
+      </aside>
+    </div>
+    <div class="sectionBlue"></div>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="js/farbastic.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
